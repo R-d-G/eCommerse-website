@@ -1,0 +1,42 @@
+.wp-block-gbt-slider
+{
+	margin-bottom: 2.5rem;
+
+	.swiper-container.full_height
+	{
+	    height: 100vh !important;
+	}
+
+	&.alignwide
+	{
+		width: 75vw;
+		margin-left: 50%;
+		transform: translateX(-50%);
+	}
+
+	&.alignfull
+	{
+
+		width: 100vw;
+		margin-left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.shortcode-slider-pagination
+	{
+		width: 9% !important;
+	}
+}
+
+@media print, screen and (min-width: 40em) {
+	.wp-block-getbowtied-th-slider .swiper-slide.center-align .slider-content-wrapper {
+	    text-align: center;
+    	margin: auto;
+	}
+
+	.wp-block-getbowtied-th-slider .swiper-slide.right-align .slider-content-wrapper {
+	    width: 100%;
+	    text-align: right;
+    	margin-left: auto;
+	}
+}
